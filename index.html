@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F4life - Imóveis universitários é aqui!</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js" defer></script>
+</head>
+<body>
+    <div class="container-principal">
+
+        <header class="container-header">
+            <nav class="navbar">
+                <a class="logo" href="index.html"><img class="logo" src="/img/logo_f4life.png" alt="Logo do cabeçalho"></a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a class="nav-link" href="#section2">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section3">Contato</a></li>
+                </ul>
+                <div class="hamburguer">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container-main">
+
+            <Section id="section1">
+                <div>
+                    <h1>Anuncie grátis <br> para mais de 100 mil pessoas todos os dias</h1>
+                    <p>Não deixe seu imóvel parado. Acompanhe visitas e propostas pelo aplicativo. Feche negócio sem burocracias.</p>
+                </div>
+                    <img src="/img/universitarios.png" alt="imagem-universitários">
+            </Section>
+
+            <section id="section2">
+                <img src="/img/mulher-sorrindo.jpg" alt="mulher-sorrindo">
+                
+                <div>
+                    <h2>Sobre nós</h2>
+                    <p>A F4life é uma plataforma digital que usa a tecnologia para simplificar a locação de imóveis para <strong>estudantes universitários</strong>. A F4life foi fundada em 2023 em São Paulo, e conta com o apoio de importantes investidores globais em capital de risco.</p>
+                </div>
+                
+            </section>
+
+            <section id="section3">
+
+                <div class="div1">
+
+                    <figure>
+                        <h2>Adicionado recentemente:</h2>
+                        <img src="/img/imovel1.jpg" alt="">
+                        <h3>Apartamento</h3>
+                        <span>R$2000,00</span>
+                    </figure>
+                    <figure>
+                        <h2>Adicionado recentemente:</h2>
+                        <img src="/img/imovel2.jpg" alt="">
+                        <h3>Apartamento</h3>
+                        <span>R$1500,00</span>
+                    </figure>
+
+                </div>
+                
+                <div class="div2">
+
+                    <form action="https://api.staticforms.xyz/submit" method="post">
+                        <h2>Contato</h2>
+
+                        <input type="hidden" name="accessKey" value="5da25652-91f9-4406-87c9-c13beba3720b">
+
+                        <label for="nome-form-contato">Nome:</label><br>
+                        <input type="text" name="name" class="nome-form-contato" id="nome-form-contato" placeholder="Digite seu nome" required><br><br>
+                        <label for="email-form-contato">E-mail:</label><br>
+                        <input type="text" name="email" class="email-form-contato" id="email-form-contato" placeholder="Digite seu e-mail" required><br><br>
+                        <label for="mensagem-form-contato">Mensagem:</label><br>
+                        <textarea name="message" id="mensagem-form-contato" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea><br>
+                        <button class="btn-form-contato">Enviar</button>
+
+                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+                    </form>
+
+                </div>
+
+            </section>
+            
+        </main>
+
+        <footer>
+
+            <figure class="container-redesSociais-footer">
+                <a href="https://www.linkedin.com/" target="_blank" rel="external"><img src="/img/linkedin.svg" alt="logo-linkedin-rodape"></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="external"><img src="/img/intagram.svg" alt="logo-instagram-rodape"></a>
+            </figure>
+
+            <p> <strong>© 2023 F4life - Todos os direitos reservados.</strong> </p>
+        </footer>
+
+    </div>
+</body>
+</html>

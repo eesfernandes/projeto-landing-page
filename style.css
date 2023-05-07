@@ -1,0 +1,465 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 62.5% no elemento raiz, equivale 1rem, que equivale 10px */
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+/* Div - Estrutura principal */
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #132235;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Header */
+header {
+    position: sticky;
+    top: 0;
+    background-color: #132235;
+    width: 100%;
+}
+
+/*  */
+li {
+    list-style: none;
+}
+
+/*  */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Container do header */
+.navbar {
+    min-height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 64px;
+}
+
+/* Logo do header */
+.logo {
+    height: 15vh;
+}
+
+/* Menu header */
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Link do header */
+.nav-link {
+    font-size: 1.6rem;
+    transition: 0.5s ease;
+}
+
+/* Efeito link do header */
+.nav-link:hover {
+    color: #6DDBD4;
+}
+
+/* Container menu hamburguer */
+.hamburguer {
+    display: none;
+    cursor: pointer;
+}
+
+/* Menu hamburguer */
+.bar {
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/***************************** INICIO DA MAIN *****************************/
+/* Main */
+.container-main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    align-items: center;
+}
+
+/***************************** INICIO DA SESSÃO 1 *****************************/
+/* Container sessão 1 main */
+#section1 {
+    background-color: #e9e9e9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 60vh;
+    width: 100%;
+}
+
+/* Container cadastro sessão 1 main */
+#section1 div {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 30px;
+   min-height: 60vh;
+   width: 430px;
+   padding: 30px 5px;
+}
+
+/* Titulo cadastro sessão 1 main */
+#section1 div h1 {
+    font-size: 4rem;
+}
+
+/* Paragrafo cadastro sessão 1 main  */
+#section1 div p {
+    font-size: 2.5rem;
+    text-align: justify;
+}
+
+/* Img seesão 1  */
+#section1 img {
+    max-width: 100%;
+    align-self: flex-end;
+    padding: 20px 5px 0 5px;
+}
+
+/***************************** INICIO DA SESSÃO 2 *****************************/
+/* Container sessão 2 */
+#section2 {
+    scroll-margin-top: 208px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 60vh;
+    width: 100%;
+    margin: 64px 0;
+}
+
+/* Img sessão 2 */
+#section2 img {
+    max-width: 50%;
+    border-radius: 25px;
+    align-self: center;
+    padding: 0 5px 0 5px;
+}
+
+/* Container sobre sessão 2 */
+#section2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    min-height: 60vh;
+    width: 600px;
+    padding: 20px 5px 20px 5px;
+}
+
+/* Titulo sobre sessão 2 */
+#section2 h2 {
+    font-size: 4rem;
+}
+
+/* Paragrafo sobre sessão 2 */
+#section2 p {
+    font-size: 2.5rem;
+    text-align: justify;
+}
+
+/***************************** INICIO DA SESSÃO 3 *****************************/
+/* Container sessão 3 */
+#section3 {
+    scroll-margin-top: 208px;
+    background-color: #e9e9e9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 60vh;
+    width: 100%;
+    margin-bottom: 64px;
+}
+
+/* Container adicionados recentemente */
+#section3 .div1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    min-height: 45vh;
+    width: 54%;
+}
+
+/* Figure */
+#section3 .div1 figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 45vh;
+    width: 53%;
+    padding: 0 5px;
+}
+
+/* Titulo superior da img */
+#section3 .div1 figure h2 {
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+}
+
+/* Img das figure */
+#section3 .div1 figure img {
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+/* Subtitulo da img */
+#section3 .div1 figure h3 {
+   font-size: 1.1rem;
+   font-weight: normal;
+   margin-top: 10px;
+}
+
+/* Valor da img */
+#section3 .div1 figure span {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: 10px;
+ }
+
+/* Container form contato sessão 3 */
+#section3 .div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 0 64px 0;
+    min-height: 60vh;
+    width: 520px;
+    padding: 64px 5px;
+}
+
+/* Paragrafo form contato sessão 3 */
+#section3 .div2 form {
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    font-size: 1.5rem;
+    min-height: 60vh;
+    width: 100%;
+}
+
+/* Titulo form contato sessão 3 */
+#section3 .div2 h2 {
+    text-align: center;
+    font-size: 4rem;
+    padding-bottom: 20px;
+}
+
+/* Label form contato sessão 3 */
+#section3 .div2 form label {
+    font-size: 1.5rem;
+}
+
+/* Input form contato sessão 3 */
+#section3 .div2 form input {
+    min-height: 30px;
+    width: 100%;
+    border: none;
+    border-bottom: #e9e9e9 solid 2px;
+}
+
+/* Textarea form contato sessão 3 */
+#section3 .div2 form textarea {
+    background-color: white;
+    border: #d3d3d3 solid 2px;
+    margin-top: 8px;
+    height: 60%;
+    width: 100%;
+}
+
+/* Btn form contato sessão 3 */
+#section3 .div2 form button {
+    border: none;
+    border-radius: 4px;
+    background-color: #132235;
+    color: white;
+    font-weight: bold;
+    height: 45px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* Efeito btn form contato sessão 3 */
+#section3 .div2 form button:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 0px 1px #6DDBD4;
+}
+
+/***************************** INICIO DO FOOTER *****************************/
+/* Footer */
+footer {
+    background-color: #6DDBD4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    width: 100%;
+}
+
+/* Container redes sociais footer */
+.container-redesSociais-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 30px 10px 30px;
+    gap: 20px;
+    width: 100%;
+}
+
+/* Img redes sociais footer */
+.container-redesSociais-footer img {
+    height: 3vh;
+}
+
+/* Paragrafo footer */
+footer p {
+    font-size: 1.5rem;
+}
+
+/***************************** INICIO DA PAGINA DE AGRADECIMENTO *****************************/
+/* Página de obrigado */
+.main-pagina-obrigado {
+    background-color: #132235;
+    color: #132235;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    gap: 50px;
+}
+
+/* Main pagina obrigado */
+.main-pagina-obrigado h1 {
+    color: white;
+    font-size: 2.5em;
+}
+
+/* Paragrafo main pagina obrigado */
+.main-pagina-obrigado p {
+    color: white;
+    font-size: 1.3em;
+}
+
+/* Link main pagina obrigado */
+.main-pagina-obrigado a {
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 55px;
+    color: #132235;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* Efeito main pagina obrigado */
+.main-pagina-obrigado a:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 0px 1px #6DDBD4;
+}
+
+/***************************** INICIO DO RESPONSIVO *****************************/
+@media screen and (max-device-width: 799px) {
+    .hamburguer {
+        display: block;
+    }
+
+    .hamburguer.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburguer.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburguer.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 100px;
+        gap: 0;
+        border-radius: 0 0 10px 10px;
+        background-color: #132235;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        transition: 0.3s;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    #section1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #section1 div {
+        padding: 30px 20px;
+     }
+
+     #section1 img {
+        padding: 20px 20px 0 20px;
+    }
+
+    #section2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #section2 div {
+        padding: 30px 20px;
+     }
+
+    #section3 {
+        scroll-margin-top: -150px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #section3 .div2 {
+        padding: 64px 20px;
+    }
+
+    .container-redesSociais-footer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
