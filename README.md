@@ -132,7 +132,7 @@ A sua Landing Page deve conter:
 
 Projeto Landing page - Eric Fernandes
 - Link do projeto: https://projeto-landing-page-nine.vercel.app/
-- 
+  
 ![Captura de tela de 2023-05-07 10-13-04](https://user-images.githubusercontent.com/112595682/236680800-c070a2f9-f0f2-4304-b72f-1b7e65aa21ee.png)
 ![Captura de tela de 2023-05-07 10-14-23](https://user-images.githubusercontent.com/112595682/236680802-f72682a8-c633-435b-af6c-32945f64aecb.png)
 
